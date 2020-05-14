@@ -36,3 +36,9 @@
   margin-top: 2rem;
   text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+  .product1-image {
+    max-width: 100%;
+  }
+}
