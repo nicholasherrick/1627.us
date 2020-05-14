@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from './assets/img/logo.jpg';
 import Product1 from './assets/img/product1.jpg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
