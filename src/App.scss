@@ -1,5 +1,6 @@
 .App {
-  font-family: Helvetica;
+  font-family: 'Gill Sans';
+  font-weight: 300;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,5 +42,9 @@
 @media screen and (max-width: 700px) {
   .product1-image {
     max-width: 90%;
+  }
+
+  h2 {
+    font-size: medium;
   }
 }
