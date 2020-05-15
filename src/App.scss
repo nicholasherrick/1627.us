@@ -25,8 +25,8 @@
 }
 
 .product1-image {
-  margin-top: 3rem;
-  max-width: 700px;
+  margin: 5rem 0;
+  max-width: 250px;
 }
 
 .product1-image:hover {
@@ -40,9 +40,9 @@
   text-align: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 640px) {
   .product1-image {
-    max-width: 90%;
+    max-width: 80%;
   }
 
   h2 {
