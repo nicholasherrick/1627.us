@@ -4,7 +4,11 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: black;
 }
 
 .logo {
@@ -37,6 +41,19 @@
 
 .text {
   margin-top: 2rem;
+  text-align: center;
+}
+
+.main-page {
+  justify-content: space-evenly;
+}
+
+.terms-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
   text-align: center;
 }
 
