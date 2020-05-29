@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/header';
-import Product1 from '../assets/img/product1.jpg';
+import Product1 from '../assets/img/product1.png';
 
 function Main() {
   return (
