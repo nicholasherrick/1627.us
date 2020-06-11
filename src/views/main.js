@@ -1,21 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../components/header';
-import Product1 from '../assets/img/product1.png';
+import Logo2 from '../assets/img/logo2.jpg';
 
 function Main() {
   return (
     <div className='main-page'>
-      <Header />
-      <div className='product'>
-        <img className='product1-image' src={Product1} alt='' />
-      </div>
-      <div className='text'>
-        <div className='links'>
-          <Link to='/terms'>Terms</Link>
+      <section className='content'>
+        <img src={Logo2} />
+        <div className='bottom-text'>
+          <Link to='/'>
+            <h1>1627</h1>
+          </Link>
+          <div className='links'>
+            <Link to='/stockists'>stockists</Link>
+            <Link to='/contact'>contact</Link>
+          </div>
         </div>
-        <h2>1627</h2>
-      </div>
+      </section>
     </div>
   );
 }
