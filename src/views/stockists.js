@@ -6,7 +6,7 @@ class Stockists extends React.Component {
     super(props);
     this.state = {
       location: 'New York',
-      link: 'https://whatsnextonyourlist.com/products/1627',
+      link: 'https://whatsnextonyourlist.com/',
       showComponent: false,
     };
   }
