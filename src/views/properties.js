@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-class Stockists extends React.Component {
+class Properties extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      location: 'New York',
-      link: 'https://whatsnextonyourlist.com/products/1627',
+      location: 'Winston Salem, North Carolina',
+      link:
+        'https://www.realtor.com/realestateandhomes-detail/4455-Brassfield-Dr-Unit-209_Winston-Salem_NC_27105_M64092-00920#photo1',
       showComponent: false,
     };
   }
@@ -23,7 +24,7 @@ class Stockists extends React.Component {
         <section className='stockists-content'>
           <div className='stockists-info'>
             <div className='locations'>
-              <a onClick={this.handleClick}>USA</a>
+              <a onClick={this.handleClick}>North Carolina</a>
             </div>
             <div className='locations-info'>
               {this.state.showComponent ? (
@@ -51,4 +52,4 @@ class Stockists extends React.Component {
   }
 }
 
-export default Stockists;
+export default Properties;
