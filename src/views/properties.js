@@ -35,16 +35,11 @@ class Properties extends React.Component {
               ) : null}
             </div>
           </div>
-          <div className='bottom-text'>
-            <Link to='/'>
-              <h1>1627</h1>
-            </Link>
-            <div className='links'>
-              <Link to='/stockists'>stockists</Link>
-              <Link to='/properties'>properties</Link>
-              <Link to='/contact'>contact</Link>
-              <Link to='/sponsorships'>sponsorships</Link>
-            </div>
+          <div className='links'>
+            <Link to='/shop'>shop</Link>
+            <Link to='/properties'>properties</Link>
+            <Link to='/contact'>contact</Link>
+            <Link to='/sponsorships'>sponsorships</Link>
           </div>
         </section>
       </div>

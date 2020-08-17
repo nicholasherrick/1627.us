@@ -3,7 +3,7 @@ import { Router, Route, Switch, Redirect } from 'react-router-dom';
 import history from './utils/history';
 import Main from './views/main';
 import Contact from './views/contact';
-import Stockists from './views/stockists';
+import Shop from './views/shop';
 import Properties from './views/properties';
 import Sponsorships from './views/sponsorships';
 import './App.scss';
@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={Main} />
           <Route path='/contact' component={Contact} />
-          <Route path='/stockists' component={Stockists} />
+          <Route path='/shop' component={Shop} />
           <Route path='/properties' component={Properties} />
           <Route path='/sponsorships' component={Sponsorships} />
           <Route path='*'>
