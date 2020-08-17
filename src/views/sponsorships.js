@@ -8,17 +8,17 @@ function Sponsorships() {
         <div className='stockists-info'>
           <div className='locations-info'>
             <div>
-              <p>CP3 Basketball Academy</p>
+              <p className='p-margin'>CP3 Basketball Academy</p>
               <a href='https://cp3basketballacademy.com/sponsors/'>
                 click here
               </a>
             </div>
             <div>
-              <p>Winston Salem Christian School</p>
+              <p className='p-margin'>Winston Salem Christian School</p>
               <a href='https://www.wschristian.com/athletics-1/'>click here</a>
             </div>
             <div>
-              <p>Penn-Griffin School for the Arts</p>
+              <p className='p-margin'>Penn-Griffin School for the Arts</p>
               <a href='https://www.gcsnc.com/domain/3014/'>click here</a>
             </div>
           </div>

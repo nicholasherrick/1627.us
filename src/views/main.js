@@ -6,7 +6,7 @@ function Main() {
   return (
     <div className='main-page'>
       <section className='content'>
-        <div className='links'>
+        <div className='links-main'>
           <Link to='/shop'>shop</Link>
           <Link to='/properties'>properties</Link>
           <Link to='/contact'>contact</Link>

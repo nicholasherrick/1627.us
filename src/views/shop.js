@@ -7,8 +7,13 @@ export default function Shop() {
       <section className='stockists-content'>
         <div className='stockists-info'>
           <div className='locations-info'>
-            <div>
-              <a href='https://whatsnextonyourlist.com/'>New York</a>
+            <div className='shop-item'>
+              <a href='https://whatsnextonyourlist.com/'>whatsnextonyourlist</a>
+              <p className='no-margin'>NY</p>
+            </div>
+            <div className='shop-item'>
+              <a href='https://hidetheporsches.com/'>hidetheporsches.com</a>
+              <p className='no-margin'>NC</p>
             </div>
           </div>
         </div>
