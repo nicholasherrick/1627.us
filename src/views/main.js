@@ -7,7 +7,7 @@ function Main() {
     <div className='main-page'>
       <section className='content'>
         <div className='links-main'>
-          <Link to='/shop'>shop</Link>
+          <a href='https://1627.store/'>shop</a>
           <Link to='/properties'>properties</Link>
           <Link to='/contact'>contact</Link>
           <Link to='/sponsorships'>sponsorships</Link>
