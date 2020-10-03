@@ -36,8 +36,7 @@ class Properties extends React.Component {
             </div>
           </div>
           <div className='links'>
-            <Link to='/shop'>shop</Link>
-            <Link to='/properties'>properties</Link>
+            <a href='https://1627.store/'>shop</a>
             <Link to='/contact'>contact</Link>
             <Link to='/sponsorships'>sponsorships</Link>
           </div>

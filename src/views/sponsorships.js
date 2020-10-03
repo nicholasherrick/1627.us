@@ -24,10 +24,9 @@ function Sponsorships() {
           </div>
         </div>
         <div className='links'>
-          <Link to='/shop'>shop</Link>
+          <a href='https://1627.store/'>shop</a>
           <Link to='/properties'>properties</Link>
           <Link to='/contact'>contact</Link>
-          <Link to='/sponsorships'>sponsorships</Link>
         </div>
       </section>
     </div>
