@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import images from '../assets/img/house/images.json';
+import Carousel from 'react-material-ui-carousel';
+import { Paper } from '@material-ui/core';
 class Properties extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       location: 'Winston Salem, North Carolina',
-      link:
-        'https://www.realtor.com/realestateandhomes-detail/4455-Brassfield-Dr-Unit-209_Winston-Salem_NC_27105_M64092-00920#photo1',
+      address: '4455 Brassfield Drive Wiinston Salem, NC',
+      info: '2BED/2BATH SQ1120',
       showComponent: false,
     };
   }
@@ -30,7 +32,20 @@ class Properties extends React.Component {
               {this.state.showComponent ? (
                 <div>
                   <p>{this.state.location}</p>
-                  <a href={this.state.link}>{this.state.link}</a>
+                  <p>{this.state.address}</p>
+                  <p>{this.state.info}</p>
+                  <Carousel>
+                    {images.map((image, i) => (
+                      <Paper key={i}>
+                        <img className='carousel-img' src={image.img} alt='' />
+                      </Paper>
+                    ))}
+                  </Carousel>
+                </div>
+              ) : null}
+              {this.state.showImgComponent ? (
+                <div>
+                  <img src={this.clickedImage} alt='' className='large' />
                 </div>
               ) : null}
             </div>
