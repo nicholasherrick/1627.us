@@ -30,7 +30,7 @@ class Properties extends React.Component {
             </div>
             <div className='locations-info'>
               {this.state.showComponent ? (
-                <div>
+                <div className='address'>
                   <p>{this.state.location}</p>
                   <p>{this.state.address}</p>
                   <p>{this.state.info}</p>
